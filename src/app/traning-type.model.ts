@@ -1,6 +1,6 @@
-export interface Traning {
+export interface TraningType {
     id: number;
-    date: number;
+    dayofweek: string;
     time: number;
     priceSingle: number;
     priceMulti: number;
