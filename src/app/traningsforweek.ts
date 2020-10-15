@@ -1,6 +1,6 @@
 import { TraningType } from './traning-type.model';
 
-export const TRANINGS: TraningType[] = [
+export const TRANINGSFORWEEK: TraningType[] = [
   { id: 1, dayofweek: 'monday',time: 21.45, priceSingle: 1400, priceMulti: 1200, },
   { id: 2, dayofweek: 'monday', time: 22.45, priceSingle: 1200, priceMulti: 1000, },
   { id: 3, dayofweek: 'tuesday', time: 21.45, priceSingle: 1400, priceMulti: 1200, },

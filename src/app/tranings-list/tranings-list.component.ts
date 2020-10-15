@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { TraningType } from 'app/traning-type.model';
+import { TraningType } from 'src/app/traning-type.model';
+import { Traning } from 'src/app/traning';
+import { TRANINGSFORWEEK } from 'src/app/traningsforweek';
+
+
 
 @Component({
   selector: 'app-tranings-list',
