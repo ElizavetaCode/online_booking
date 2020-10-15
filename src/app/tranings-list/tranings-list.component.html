@@ -1,1 +1,8 @@
-<p>tranings-list works!</p>
+<h2>Тренировки на неделю</h2>
+<ul class="traningsforweek">
+  <li > *ngFor="tranings of week"
+    <span class="badge">{{traningsforweek.id}}</span> 
+    {{traningsforweek.dayofweek}} {{traningsforweek.time}} 
+     {{traningsforweek.priceSingle}}  {{traningsforweek.priceMulti}}
+  </li>
+</ul>

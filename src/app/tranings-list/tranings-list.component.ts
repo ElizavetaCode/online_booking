@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TraningType } from 'src/app/traning-type.model';
-import { Traning } from 'src/app/traning';
+import { Traning } from 'src/app/traning.model';
 import { TRANINGSFORWEEK } from 'src/app/traningsforweek';
 
 
@@ -11,6 +11,8 @@ import { TRANINGSFORWEEK } from 'src/app/traningsforweek';
   styleUrls: ['./tranings-list.component.css']
 })
 export class TraningsListComponent implements OnInit {
+  
+  traningsforweek = TRANINGSFORWEEK;
 
   constructor() { }
 
