@@ -1,8 +1,8 @@
 <h2>Тренировки на неделю</h2>
 <ul>
-  <li> *ngFor="let TraningType of traningsforweek"
-    <span>{{traningsforweek.id}}
-    {{traningsforweek.dayofweek}} {{traningsforweek.time}} 
-    {{traningsforweek.priceSingle}}  {{traningsforweek.priceMulti}}</span> 
+  <li *ngFor="let traningtype of traningsforweek">
+    <span>{{traningtype.id}}
+    {{traningtype.dayofweek}} {{traningtype.time}} 
+    {{traningtype.priceSingle}}  {{traningtype.priceMulti}}</span> 
   </li>
 </ul>
